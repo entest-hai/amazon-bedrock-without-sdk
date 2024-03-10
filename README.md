@@ -10,6 +10,9 @@ date: 10/03/2024
 - Sign the request using AWS Signature V4
 - Process the stream response chunk by chunk and decode text
 
+> [!WARNING]  
+> I am use SSO and a demo profile for loading the AWS credentials. Please modify it up to your preference.
+
 ## Create Request
 
 Let create a HTTP request sendin to the Bedrock runtime endpoint
@@ -36,6 +39,9 @@ const request = new HttpRequest({
 ```
 
 ## Signed Request
+
+> [!WARNING]  
+> I am use SSO and a demo profile for loading the AWS credentials. Please modify it up to your preference.
 
 The request must be signed using AWS Signature V4.
 
