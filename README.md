@@ -38,7 +38,7 @@ const request = new HttpRequest({
 });
 ```
 
-## Signed Request
+## Sign Request
 
 > [!WARNING]  
 > I am use SSO and a demo profile for loading the AWS credentials. Please modify it up to your preference.
