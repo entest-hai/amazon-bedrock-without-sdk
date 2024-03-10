@@ -11,7 +11,7 @@ date: 10/03/2024
 - Process the stream response chunk by chunk and decode text
 
 > [!WARNING]  
-> I am use SSO and a demo profile for loading the AWS credentials. Please modify it up to your preference.
+> I am using SSO and a demo profile for loading the AWS credentials. Please modify it up to your preference.
 
 ## Create Request
 
@@ -103,3 +103,9 @@ while (true) {
   }
 }
 ```
+
+## Reference
+
+- [bedrock stream api docs](https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_InvokeModelWithResponseStream.html)
+
+- [bedrock payload response based64](https://docs.aws.amazon.com/bedrock/latest/APIReference/API_runtime_PayloadPart.html)
